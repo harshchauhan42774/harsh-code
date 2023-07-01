@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+class A
+{
+public:
+void get ()
+{
+cout<<"HELLO";
+}
+};
+int main()
+{
+A a;
+a.get();
+getch();
+return 0;
+}
